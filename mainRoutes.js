@@ -11,4 +11,8 @@ mainRouter.get('/about', function(req, res){
 					res.sendFile(path.join(__dirname,'views','about.html'));
 				});
 				
+mainRouter.get('/home', function(req, res){
+					res.sendFile(path.join(__dirname,'views','index.html'));
+				});
+				
 module.exports = mainRouter; // similar to  return in C++

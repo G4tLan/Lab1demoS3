@@ -7,11 +7,11 @@ mainRouter.get('/', function(req, res){
 					res.send('Hello World, I\'m Node.js');
 				});
 
-mainRouter.get('/about', function(req, res){
+mainRouter.get('/about.html', function(req, res){
 					res.sendFile(path.join(__dirname,'views','about.html'));
 				});
 				
-mainRouter.get('/home', function(req, res){
+mainRouter.get('/home.html', function(req, res){
 					res.sendFile(path.join(__dirname,'views','index.html'));
 				});
 				

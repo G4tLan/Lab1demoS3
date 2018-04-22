@@ -13,6 +13,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 //mounting our routers
 app.use('/',mainRouter);
 app.use('/todo',todoRouter);
+app.use('/cdn', express.static('public'));
 
 		
 		

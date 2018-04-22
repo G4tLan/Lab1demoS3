@@ -3,24 +3,23 @@
 
 <html>
 	<head>
-		<title>Hello World</title>
+		<title>Todo List</title>
 		<meta charset="utf=8"/>
-				<style type="text/css">
-			body 
-			{
-				background-color:red ;
-			}
-		</style>
+		<script src="/cdn/libraries/jquery.js"></script><!-- the jQuery library-->  <script src="/cdn/scripts/todo/index.js"></script><!-- Our JavaScript 8 code for this page--> 
+		<link rel="stylesheet" href="/cdn/css/bootstrap.css">
 		
 	</head>
 	
 	<body>
-		<h1>Hello World</h1>
-		<p>
-		&#127760 - Hello Pierre! 
-		</p>
-		<p><a href="dummy.html">Return to dummy</a></p>
-		<p><a href="about.html">about</a></p>
+		<h1 class="jumbotron text-center">Stuff to do</h1>
+		<ol id="todoList">
+		
+		</ol>
+		 Add a new todo:
+		 <input type="text" id="newTodoInput"></input> 
+		<button  class="btn btn-primary" type="button" id="addTodoButton">Add</button>
+		
+		<script src="/cdn/scripts/todo/index.js"></script>
 	
 	</body>
 	

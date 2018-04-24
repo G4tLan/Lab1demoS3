@@ -4,7 +4,7 @@
   "description": "using npm with javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./test/todoLists_tape.js",
     "start": "node index"
   },
   "author": "",
@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.1.1"
+    "mocha": "^5.1.1",
+    "tape": "^4.9.0"
   }
 }
